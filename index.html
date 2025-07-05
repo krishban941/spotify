@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css">
+    <script src="spotify.js"></script>
+</head>
+
+<body>
+
+    <div class="container flex" style="background-color: black;padding: 0; margin: 0;">
+        <div class="left border">
+            <div class="close">
+                <img class="invert" src="close.svg">
+            </div>
+            <div class="home bg-grey rounded">
+                <div class="logo" style="font-weight: bolder;"><img src="" style="width: 28px;padding-right: 5px;padding-top: 3px;padding-left: 7px;">softify</div>
+                <ul>
+
+                    <li><img src="h.svg" class="invert" style="width: 24px;padding-right: 15px;padding-left: 7px;padding-top: 20px;font-weight: lighter;justify-content: center;" alt="home">Home</li>
+
+                    </br>
+
+                    <li><img src="search.svg" class="invert" style="width: 28px;padding-right: 12px;padding-top: 7px;padding-left: 7px; font-weight: lighter;background: color #121212;" alt="home">Search</li>
+
+                </ul>
+            </div>
+            <div class="library bg-grey rounded  p-1" style="margin-top: 10px">
+                <div class="heading">
+                    <img src="l.svg" alt="library" class="invert">
+
+                    <h4>Your Library</h4>
+                </div>
+                <div class="slist">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer" style="display: flex;">
+                    <div><a href="https://www.spotify.com/in-en/legal/" id="">Legal</a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" id="">Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id="">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/" id="">Accessibility</a></div>
+                    <div><a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">Cookies</a></div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right border bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="flex" style="justify-content: center; align-items: center;gap: 10px;">
+
+                        <img class="ham invert" width="30px" src="ham.svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+
+    <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+         fill="" stroke="" stroke-width="" />
+</svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="signup">Sign up</button>
+                    <button class="login" style="background-color: white;color:black; padding: 4px;">Log In</button></div>
+            </div>
+            <div class="spotifyplaylists">
+                <h2>Spotify-Playlists</h2>
+                <div class="cardcontainer">
+                    <div data-folder="sapphire" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- Green circular background -->
+    <circle cx="24" cy="24" r="24" fill="green" />
+
+//<!-- Original black icon centered -->
+<g transform="translate(12,12)">
+<circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="#000000"/>
+</g>
+</svg>
+                        </div>
+
+                        <img src="https://i.scdn.co/image/ab67616d00001e026fbb60d6a7e03ccb940a518e" style="width: 175px;padding: 12px;">
+                        <h3 style="padding-left: 12px;">Sapphire</h3>
+                        <p style="font-size:small;padding-left: 12px;">Hits to boost your mood and fill you with happiness.</p>
+
+                    </div>
+
+                    <div data-folder="shaky" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- Green circular background -->
+    <circle cx="24" cy="24" r="24" fill="green" />
+
+//<!-- Original black icon centered -->
+<g transform="translate(12,12)">
+<circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="#000000"/>
+</g>
+</svg>
+                        </div>
+                        <img src="Shaky_Sanju_Rathod.jpg" style="width: 175px;height: 175px; padding: 12px;">
+                        <h3 style="padding-left: 12px;">Shaky</h3>
+                        <p style="font-size:small;padding-left: 12px;">Trending song.</p>
+                    </div>
+
+                    <div data-folder="root" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- Green circular background -->
+    <circle cx="24" cy="24" r="24" fill="green" />
+
+//<!-- Original black icon centered -->
+<g transform="translate(12,12)">
+<circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="#000000"/>
+</g>
+</svg>
+                        </div>
+
+                        <img src="Roots-photo.jpg" style="width: 175px;padding: 12px;">
+                        <h3 style="padding-left: 12px;">Roots</h3>
+                        <p style="font-size:small;padding-left: 12px;">Hear the life of village.</p>
+
+                    </div>
+
+                    <div data-folder="jaat" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- Green circular background -->
+    <circle cx="24" cy="24" r="24" fill="green" />
+
+//<!-- Original black icon centered -->
+<g transform="translate(12,12)">
+<circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="#000000"/>
+</g>
+</svg>
+                        </div>
+
+                        <img src="Choudar-Jaat-Ki-Punjabi.jpg" style="width: 175px;padding: 12px;">
+                        <h3 style="padding-left: 12px;">Chaudhar Jaat Ki</h3>
+                        <p style="font-size:small;padding-left: 12px;">Hear the energetic and attitude lyrics.</p>
+                    </div>
+
+                    <div data-folder="radhe" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- Green circular background -->
+    <circle cx="24" cy="24" r="24" fill="green" />
+
+//<!-- Original black icon centered -->
+<g transform="translate(12,12)">
+<circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="#000000"/>
+</g>
+</svg>
+                        </div>
+
+                        <img src="Radhe-Radhe.jpg" style="width: 175px;padding: 12px;">
+                        <h3 style="padding-left: 12px;">Radhe-Radhe</h3>
+                        <p style="font-size:small;padding-left: 12px;">Jai Shree Radhe</p>
+
+                    </div>
+
+                    <div data-folder="jailer" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- Green circular background -->
+    <circle cx="24" cy="24" r="24" fill="green" />
+
+//<!-- Original black icon centered -->
+<g transform="translate(12,12)">
+<circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="#000000"/>
+</g>
+</svg>
+                        </div>
+
+                        <img src="Jailer.jpg" style="width: 175px;height: 175px;padding: 12px;">
+                        <h3 style="padding-left: 12px;">Jailer</h3>
+                        <p style="font-size:small;padding-left: 12px;">Trending south indian song.</p>
+                    </div>
+
+                    <div data-folder='chalisa' class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <!-- Green circular background -->
+    <circle cx="24" cy="24" r="24" fill="green" />
+
+//<!-- Original black icon centered -->
+<g transform="translate(12,12)">
+<circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z" fill="#000000"/>
+</g>
+</svg>
+                        </div>
+
+                        <img src="hanuman.jpg" style="width: 175px;height: 175px;padding: 12px;">
+                        <h3 style="padding-left: 12px;">Shree Hanuman Chalisa</h3>
+                        <p style="font-size:small;padding-left: 12px;">Jai Hanuman,Jai Balaji Maharaj</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="playbar  rounded">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="time">
+                    <div class="songinfo"></div>
+                    <div class="playbtn">
+                        <img id="prev" class="invert" src="pb.svg" style="width: 30px;">
+                        <img id="play" class="invert " src="play.svg" style="width: 35px;">
+                        <img id="nxt" class="invert" src="pn.svg" style="width: 30px;">
+                    </div>
+                    <div class="timevol">
+                        <div class="vol"><img width="30px" class="invert" src="vol.svg">
+                            <div class="range"><input type="range" name="vol"></div>
+                        </div>
+                        <div class="songtime"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
